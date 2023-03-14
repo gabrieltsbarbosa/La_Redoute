@@ -131,6 +131,36 @@ section p {
     background-color: #3e8e41;
 }
 
+.product-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.product-info img {
+    width: 50%;
+    margin-right: 20px;
+}
+.product-info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.product-info p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.product-info button {
+    background-color: #0071c5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.product-info button:hover {
+    background-color: #ff4500;
+}
 
 footer {
     background-color: #f0f0f0;
