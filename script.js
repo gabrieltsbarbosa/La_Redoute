@@ -1,48 +1,39 @@
 const resultsContainer = document.getElementById("results");
 
-// Objeto JSON de exemplo
 fetch("BD.json")
     .then((response) => response.json())
     .then((data) => {
-        // Processar o JSON aqui
         search(data);
     })
     .catch((error) => {
-        // Tratar erros aqui
         console.error(error);
     });
 
-// Loop através do objeto JSON e criar elementos HTML para cada item
+
 function search(products) {
     Object.keys(products).forEach((key) => {
         const product = products[key];
-        // Criar o elemento da miniatura do produto
+
         const productElem = document.createElement("div");
         productElem.classList.add("result");
 
-        // Criar a imagem do produto
         const imgElem = document.createElement("img");
         imgElem.src = product.image;
         productElem.appendChild(imgElem);
 
-        // Criar o título do produto
         const titleElem = document.createElement("h2");
         titleElem.textContent = product.name;
         productElem.appendChild(titleElem);
 
-        // Criar a descrição do produto
         const descElem = document.createElement("p");
         descElem.textContent = truncateString(product.description);
         productElem.appendChild(descElem);
 
-        // Criar o botão de adicionar ao carrinho
-        const btnElem = document.createElement("button");
-        btnElem.textContent = `Ver Detalhes - R$${product.price.toFixed(
-            2
-        )}`;
+        const btnElem = document.createElement("a");
+        btnElem.classList.add("productBtn");
+        btnElem.setAttribute("href", `/product.html?id=${product.id}`);
+        btnElem.textContent = `Ver Detalhes - R$${product.price.toFixed(2)}`;
         productElem.appendChild(btnElem);
-
-        // Adicionar a miniatura do produto ao container de resultados
         resultsContainer.appendChild(productElem);
     });
 }
