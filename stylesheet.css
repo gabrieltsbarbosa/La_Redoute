@@ -118,16 +118,19 @@ section p {
     margin: 10px;
 }
 
-.result button {
+.result a {
     padding: 10px;
     background-color: #4caf50;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.result button:hover {
+.result a:hover {
     background-color: #3e8e41;
 }
 
