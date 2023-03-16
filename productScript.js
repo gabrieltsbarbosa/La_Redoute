@@ -17,6 +17,7 @@ const params = new URLSearchParams(window.location.search);
       const priceElement = document.querySelector("#price");
       const descriptionElement = document.querySelector("#description");
       const coverImageElement = document.querySelector("img");
+      const buttonElement = document.querySelector("#externalLink");
 
       // Set the book information in the HTML elements
       titleElement.innerHTML = product.name;
@@ -24,4 +25,5 @@ const params = new URLSearchParams(window.location.search);
       priceElement.innerHTML = "R$" + product.price.toFixed(2);
       descriptionElement.innerHTML = product.description;
       coverImageElement.src = product.image;
+      buttonElement.href = product.externalLink;
     };
