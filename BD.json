@@ -3,19 +3,21 @@
         "id": 0,
         "name": "O Pequeno Príncipe",
         "author": "Antoine de Saint-Exupéry",
-        "price": 20.90,
+        "price": 6.00,
         "image": "src/0.png",
         "description": "'O Pequeno Príncipe' é um livro do escritor e aviador francês Antoine de Saint-Exupéry, publicado originalmente em 1943. A obra é considerada um clássico da literatura mundial e conta a história de um pequeno príncipe que viaja por vários planetas e conhece diferentes personagens, incluindo um aviador que caiu no deserto do Saara.",
-        "conservation": "novo"
+        "conservation": "novo",
+        "externalLink": "https://www.estantevirtual.com.br/livros/antoine-de-saint-exupery/o-pequeno-principe/3131401159?show_suggestion=0"
     },
     "1": {
         "id": 1,
         "name": "O Nome da Rosa",
         "author": "Umberto Eco",
-        "price": 35.00,
+        "price": 6.00,
         "image": "src/1.png",
         "description": "'O Nome da Rosa' é um livro do escritor italiano Umberto Eco, publicado originalmente em 1980. A obra é um romance histórico ambientado na Idade Média e conta a história do monge franciscano William de Baskerville, que é convocado para investigar uma série de mortes misteriosas em uma abadia.",
-        "conservation": "usado conservado"
+        "conservation": "usado conservado",
+        "externalLink": "https://www.estantevirtual.com.br/livros/umberto-eco/o-nome-da-rosa/3150658168?show_suggestion=0"
     },
     "2": {
         "id": 2,
@@ -24,69 +26,77 @@
         "price": 28.50,
         "image": "src/2.png",
         "description": "'1984' é um livro do escritor britânico George Orwell, publicado originalmente em 1949. A obra é um romance distópico que retrata uma sociedade totalitária e controladora, em que o governo manipula a verdade e a linguagem para manter o poder sobre a população.",
-        "conservation": "novo"
+        "conservation": "novo",
+        "externalLink": "https://www.estantevirtual.com.br/livros/george-orwell/1984/3544357823?show_suggestion=0"
     },
     "3": {
         "id": 3,
         "name": "A Revolução dos Bichos",
         "author": "George Orwell",
-        "price": 22.00,
+        "price": 48.94,
         "image": "src/3.png",
         "description": "'A Revolução dos Bichos' é um livro do escritor britânico George Orwell, publicado originalmente em 1945. A obra é uma sátira política que retrata a Revolução Russa e seus líderes sob a forma de animais em uma fazenda.",
-        "conservation": "usado conservado"
+        "conservation": "usado conservado",
+        "externalLink": "https://www.estantevirtual.com.br/livros/orwell-george/a-revolucao-dos-bichos-edicao-de-luxo/2490266192?show_suggestion=0"
     },
     "4": {
         "id": 4,
         "name": "Guerra e Paz",
         "author": "Liev Tolstói",
-        "price": 50.00,
+        "price": 13.75,
         "image": "src/4.png",
         "description": "'Guerra e Paz' é um livro do escritor russo Liev Tolstói, publicado originalmente entre 1865 e 1869. A obra é um romance histórico que retrata a história da Rússia durante as guerras napoleônicas, focando em uma série de famílias aristocráticas.",
-        "conservation": "usado mal conservado"
+        "conservation": "usado mal conservado",
+        "externalLink": "https://www.estantevirtual.com.br/livros/liev-tolstoi/guerra-e-paz/1983389535?show_suggestion=0"
     },
     "5": {
         "id": 5,
         "name": "Os Miseráveis",
         "author": "Victor Hugo",
-        "price": 42.00,
+        "price": 7.90,
         "image": "src/5.png",
         "description": "'Os Miseráveis' é um livro do escritor francês Victor Hugo, publicado originalmente em 1862. A obra é um romance histórico que retrata a França do século XIX e a luta do personagem principal, Jean Valjean, para escapar de sua condição de prisioneiro e reconstruir sua vida.",
-        "conservation": "colecionador conservado"
+        "conservation": "colecionador conservado",
+        "externalLink": "https://www.estantevirtual.com.br/livros/victor-hugo/os-miseraveis/1788867415?show_suggestion=0"
     },
     "6": {
         "id": 6,
         "name": "Crime e Castigo",
         "author": "Fiódor Dostoiévski",
-        "price": 29.90,
+        "price": 10.00,
         "image": "src/6.png",
         "description": "'Crime e Castigo' é um livro do escritor russo Fiódor Dostoiévski, publicado originalmente em 1866. A obra é um romance psicológico que retrata a história de um jovem estudante, Raskólnikov, que comete um assassinato e é assombrado pelas consequências de seus atos.",
-        "conservation": "usado conservado"
+        "conservation": "usado conservado",
+        "externalLink": "https://www.estantevirtual.com.br/livros/fiodor-dostoievski/crime-e-castigo/439743951?show_suggestion=0"
     },
     "7": {
         "id": 7,
         "name": "O Processo",
         "author": "Franz Kafka",
-        "price": 19.99,
+        "price": 6.00,
         "image": "src/7.png",
         "description": "'O Processo' é um livro do escritor tcheco Franz Kafka, publicado postumamente em 1925. A obra é um romance que retrata a história do personagem Josef K., que é preso e acusado de um crime que desconhece e que não consegue entender o processo judicial pelo qual está passando.",
-        "conservation": "usado mal conservado"
+        "conservation": "usado mal conservado",
+        "externalLink": "https://www.estantevirtual.com.br/livros/franz-kafka/o-processo/102092452?show_suggestion=0"
     },
     "8": {
         "id": 8,
         "name": "Moby Dick",
         "author": "Herman Melville",
-        "price": 39.99,
+        "price": 19.00,
         "image": "src/8.png",
         "description": "'Moby Dick' é um romance do escritor americano Herman Melville, publicado originalmente em 1851. A obra conta a história de Ismael, um marinheiro que se une à tripulação do navio baleeiro Pequod, comandado pelo obscecado Capitão Ahab, em busca da grande baleia branca chamada Moby Dick.",
-        "conservation": "novo"
+        "conservation": "novo",
+        "externalLink": "https://www.estantevirtual.com.br/livros/melville/moby-dick/3275097355?show_suggestion=0"
     },
     "9": {
         "id": 9,
         "name": "Orgulho e Preconceito",
         "author": "Jane Austen",
-        "price": 25.00,
+        "price": 7.20,
         "image": "src/9.png",
         "description": "'Orgulho e Preconceito' é um romance da escritora britânica Jane Austen, publicado originalmente em 1813. A obra se passa na Inglaterra do século XIX e conta a história de Elizabeth Bennet, uma jovem inteligente e irreverente, e seu relacionamento com o aristocrata Mr. Darcy, marcado por orgulho e preconceito.",
-        "conservation": "colecionador mal conservado"
+        "conservation": "colecionador mal conservado",
+        "externalLink": "https://www.estantevirtual.com.br/livros/jane-austen/orgulho-e-preconceito/3125909548?show_suggestion=0"
     }
 }
