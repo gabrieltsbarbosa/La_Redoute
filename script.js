@@ -32,7 +32,7 @@ function search(products) {
         const btnElem = document.createElement("a");
         btnElem.classList.add("productBtn");
         btnElem.setAttribute("href", `/product.html?id=${product.id}`);
-        btnElem.textContent = `Ver Detalhes - R$${product.price.toFixed(2)}`;
+        btnElem.textContent = `Ver Detalhes R$${product.price.toFixed(2)}`;
         productElem.appendChild(btnElem);
         resultsContainer.appendChild(productElem);
     });
